@@ -1,0 +1,1 @@
+python vtv_news_generator.py --images assets/images --out output/video.mp4
