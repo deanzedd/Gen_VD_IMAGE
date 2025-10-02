@@ -1,0 +1,149 @@
+{
+  "characters": [
+    {
+      "id": "ong_lao__binh_thuong",
+      "name": "Ông Lão",
+      "description": "Một ông lão già, hiền hậu, mặc bộ quần áo vá víu, ngồi trên chiếc thuyền nan cũ kỹ.",
+      "image": "characters/ong_lao__binh_thuong.png"
+    },
+    {
+      "id": "ong_lao__buon_ba",
+      "name": "Ông Lão (buồn bã)",
+      "description": "Ông lão già, nét mặt buồn rầu và sợ hãi, đứng trước biển cả dậy sóng, quần áo ướt sũng.",
+      "image": "characters/ong_lao__buon_ba.png"
+    },
+    {
+      "id": "ba_lao__ngheo_kho",
+      "name": "Bà Lão (nghèo khổ)",
+      "description": "Một bà lão già, mặt mày cau có, mặc quần áo rách rưới, ngồi bên máng lợn sứt mẻ trước túp lều nát.",
+      "image": "characters/ba_lao__ngheo_kho.png"
+    },
+    {
+      "id": "ba_lao__quy_toc",
+      "name": "Bà Lão (quý tộc)",
+      "description": "Bà lão mặc trang phục quý tộc, vẻ mặt kiêu kỳ, đứng khoanh tay trước một ngôi nhà gỗ lớn và khang trang.",
+      "image": "characters/ba_lao__quy_toc.png"
+    },
+    {
+      "id": "ba_lao__nu_hoang",
+      "name": "Bà Lão (Nữ hoàng)",
+      "description": "Bà lão mặc hoàng bào lộng lẫy, đầu đội vương miện, ngồi trên ngai vàng trong cung điện nguy nga, vẻ mặt hống hách.",
+      "image": "characters/ba_lao__nu_hoang.png"
+    },
+    {
+      "id": "ca_vang__than_ky",
+      "name": "Cá Vàng",
+      "description": "Một con cá nhỏ toàn thân lấp lánh ánh vàng, nổi trên mặt nước, có thể nói tiếng người.",
+      "image": "characters/ca_vang__than_ky.png"
+    }
+  ],
+  "script": [
+    {
+      "scene": 1,
+      "description": "Ông lão nghèo khổ vui mừng kéo lưới, bất ngờ thấy một con cá vàng lấp lánh đang mắc kẹt.",
+      "dialogues": [
+        {
+          "character": "ca_vang__than_ky",
+          "line": "Xin ông thả tôi về biển! Tôi sẽ đền ơn ông, ông muốn gì cũng được."
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "description": "Ông lão mỉm cười hiền hậu, gỡ cá vàng ra khỏi lưới và thả lại xuống biển.",
+      "dialogues": [
+        {
+          "character": "ong_lao__binh_thuong",
+          "line": "Trời phù hộ cho ngươi! Ta chẳng cần gì cả."
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "description": "Trong túp lều nát, bà lão chỉ vào cái máng lợn sứt mẻ và gắt gỏng với ông lão.",
+      "dialogues": [
+        {
+          "character": "ba_lao__ngheo_kho",
+          "line": "Đồ ngốc! Sao không đòi nó cái máng lợn mới? Đi ngay!"
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "description": "Ông lão buồn bã ra bờ biển gọi. Cá vàng nổi lên trên mặt nước yên ả.",
+      "dialogues": [
+        {
+          "character": "ong_lao__binh_thuong",
+          "line": "Cá ơi, giúp tôi với! Vợ tôi muốn một cái máng lợn mới."
+        },
+        {
+          "character": "ca_vang__than_ky",
+          "line": "Ông cứ về đi, sẽ có máng lợn mới."
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "description": "Bà lão đứng bên máng lợn mới nhưng vẻ mặt vẫn tham lam, tiếp tục ra lệnh cho ông lão.",
+      "dialogues": [
+        {
+          "character": "ba_lao__ngheo_kho",
+          "line": "Một cái máng lợn thì ăn thua gì! Tôi muốn một ngôi nhà khang trang!"
+        }
+      ]
+    },
+    {
+      "scene": 6,
+      "description": "Ông lão lại ra biển, mặt biển bắt đầu gợn sóng. Cá vàng hiện lên.",
+      "dialogues": [
+        {
+          "character": "ong_lao__binh_thuong",
+          "line": "Cá ơi! Vợ tôi lại nổi giận... bà ấy muốn một ngôi nhà lớn."
+        },
+        {
+          "character": "ca_vang__than_ky",
+          "line": "Ông cứ về đi, bà ấy sẽ được toại nguyện."
+        }
+      ]
+    },
+    {
+      "scene": 7,
+      "description": "Bà lão trong trang phục quý tộc đi lại trong nhà mới, vẻ mặt kiêu kỳ, không hài lòng.",
+      "dialogues": [
+        {
+          "character": "ba_lao__quy_toc",
+          "line": "Ta không muốn làm một mụ nhà giàu. Ta muốn làm nữ hoàng!"
+        }
+      ]
+    },
+    {
+      "scene": 8,
+      "description": "Ông lão sợ hãi ra biển giữa lúc biển động dữ dội, mây đen vần vũ.",
+      "dialogues": [
+        {
+          "character": "ong_lao__buon_ba",
+          "line": "Cá ơi! Mụ vợ tôi điên rồi! Mụ muốn làm nữ hoàng!"
+        },
+        {
+          "character": "ca_vang__than_ky",
+          "line": "Đừng lo, ông cứ về đi."
+        }
+      ]
+    },
+    {
+      "scene": 9,
+      "description": "Trong cung điện, nữ hoàng hống hách chỉ tay vào mặt ông lão, quát tháo.",
+      "dialogues": [
+        {
+          "character": "ba_lao__nu_hoang",
+          "line": "Ta không muốn làm nữ hoàng nữa! Ta muốn làm Long Vương, ngự trị biển cả!"
+        }
+      ]
+    },
+    {
+      "scene": 10,
+      "description": "Ông lão lủi thủi quay về, thấy túp lều nát như xưa, bà lão ngồi bên cái máng lợn sứt.",
+      "dialogues": []
+    }
+  ]
+}
