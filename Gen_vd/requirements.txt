@@ -1,0 +1,10 @@
+moviepy
+numpy
+pydub
+gTTS
+Pillow
+requests
+tqdm
+python-dotenv
+litellm
+google-generativeai
