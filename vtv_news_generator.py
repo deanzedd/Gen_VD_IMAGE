@@ -1,7 +1,8 @@
 # vtv_news_generator.py
 # One-file pipeline to generate a 3-minute VTV-style news video
 # Requirements: moviepy, numpy, pydub, gTTS, Pillow, requests, tqdm, python-dotenv, google-generativeai (optional)
-
+from moviepy.config import change_settings
+change_settings({"IMAGEMAGICK_BINARY": r"C:\Program Files\ImageMagick-7.1.2-Q16-HDRI\magick.exe"})  # Adjust path as needed
 import os
 import requests
 import argparse

@@ -29,8 +29,10 @@ def tts_http(text, out_wav):
 
 def tts_gtts(text, out_wav):
     tmp = str(out_wav) + ".mp3"
+    #tmp = "output/tts.wav"
+    #breakpoint()
     gTTS(text=text, lang="vi").save(tmp)
-    audio = AudioSegment.from_mp3(tmp).set_frame_rate(48000).set_channels(2)
+    audio = AudioSegment.from_mp3(tmp).set_frame_rate(48000).set_channels(2) #deo hieu loi dau 
     audio.export(out_wav, format="wav")
     os.remove(tmp)
     return out_wav
